@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.navbar {
+  background-color: #6D214F;
+  position: sticky;
+  text-align: left;
+  font-family: 'Quicksand',sans-serif;
+}
+
+.navbar li {
+  display: inline;
+  list-style-type: none;
+}
+
+.navbar a {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+.navbar a:hover {
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+  box-shadow: 8px 8px 10px 10px rgba(5, 5, 5, 0.2);
+  border-radius: 15px;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #6D214F;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Quicksand',sans-serif;
+  margin-top: 20px;
+}
+
+.card-home {
+  justify-content: left;
+}
+
+.card img {
+  max-width:100%;
+  height: auto;
+}
