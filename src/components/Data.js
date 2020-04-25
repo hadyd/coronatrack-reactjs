@@ -12,7 +12,8 @@ const Data = () => {
   useEffect(() => {
     axios
       .get("https://api.kawalcorona.com/indonesia/")
-      .then((res) => setKorban(res.data[0]));
+      .then((res) => setKorban(res.data[0]))
+      .catch(console.error);
   }, []);
 
   return (
